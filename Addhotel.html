@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+         .add-hotel
+            {
+                height: 300px;
+                width: 600px;
+                position: relative;
+                top:128px;
+                left:435px;
+                background: linear-gradient(to bottom, rgb(61 211 222), rgb(235 181 243));
+                border-radius: 28px 138px 0px;
+            }
+            p{
+                font-size: larger;
+                position: relative;    top: 48px;
+    left: 53px;
+            }
+            .input
+            {
+                border-radius: 5px;
+                text-align: center;
+                font-size: large;
+                position: relative;
+    top: 7px;
+    left: 330px;
+            }
+            .button{
+                position: relative;
+    top: 26px;
+    left: 342px;
+    border-radius: 10px;
+            }
+    </style>
+   
+</head>
+
+<body style="font-family: Century Gothic;background-color: #293637e0;;">
+    <div class="add-hotel">
+        <h2 style='text-align:center;position: relative;
+        top: 78px;'>Add New Hotel</h2>
+        <div id="form">
+            <form action="HotelRecord" method="post" style="margin-top: 77px;">
+                <p>Please enter the hotel name: </p><input class="input" type="text" name="hotel_name" /><br/>
+                <input class="button" type="submit" value="Add" />
+               
+            </form>
+
+        </div>
+    
+    </div>
+    
+</body>
+</html>

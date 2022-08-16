@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .register {
+            height: 243px;
+            width: 600px;
+            position: relative;
+            top: 39px;
+            left: 435px;
+            background: linear-gradient(to bottom, rgb(61 211 222), rgb(235 181 243));
+        
+            border-radius: 26px 70px 0px;
+        }
+
+        p {
+            font-size: larger;
+            position: relative;
+            top: 48px;
+            left: 53px;
+        }
+
+        .input {
+            border-radius: 5px;
+            text-align: center;
+            font-size: large;
+            position: relative;
+            top: 7px;
+            left: 333px;
+        }
+
+        .button {
+            position: relative;
+            top: 26px;
+            left: 342px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body style="font-family: Century Gothic;background-color: #293637e0;;">
+    <h1 style="text-align: center;">REGISTERATION</h1>
+    <div class="register">
+        <form action="addrecord" method="post">
+            <p>Please enter New Username:</p> <input class="input" type="text" name="nu_name" autocomplete="off" />
+            <br />
+            <p>Please enter Password:</p> <input class="input" type="password" name="nu_pass" autocomplete="off" />
+            <br />
+            <input class="button" type="submit" value="Submit Details" />
+        </form>
+
+    </div>
+
+</body>
+
+</html>
